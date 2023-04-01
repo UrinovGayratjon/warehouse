@@ -1,0 +1,16 @@
+###
+GET http://localhost:8080/api/product
+
+###
+GET http://localhost:8080/api/product/2
+
+###
+POST http://localhost:8080/api/product
+Content-Type: application/json
+
+{
+  "name": "Iphone",
+  "categoryId": 1,
+  "measurementId": 1,
+  "photoId": 2
+}
